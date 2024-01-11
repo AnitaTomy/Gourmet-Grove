@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+  color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color:white;
+  font-family: 'Cedarville Cursive', cursive;
+  color: black;
+  width: 100%;
+}
+.header-text {
+  text-align: center;
+  margin-top: 10px;
+  white-space: pre-line;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 20px;
+}
+
+
+
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav ul li {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.main-content {
+  padding: 20px;
+  text-align: center;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo-img {
+  margin-right: 10px; 
+}
